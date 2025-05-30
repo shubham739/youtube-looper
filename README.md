@@ -4,12 +4,6 @@
 
 ---
 
-## 📸 Demo
-
-![demo](demo.gif) <!-- Add a screen recording if possible -->
-
----
-
 ## 🚀 Features
 
 - ⏲️ Set custom start and end times (in seconds)
