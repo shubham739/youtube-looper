@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    body { font-family: sans-serif; width: 200px; padding: 10px; }
-    input { width: 50px; }
-  </style>
+  <title>YouTube Looper</title>
+  <link rel="stylesheet" href="popup.css" />
 </head>
 <body>
-  <h3>Loop Video</h3>
-  <label>Start (s): <input id="start" type="number"></label><br><br>
-  <label>End (s): <input id="end" type="number"></label><br><br>
-  <button id="setLoop">Set Loop</button>
+  <div class="container">
+    <h1>YouTube Looper</h1>
+
+    <label for="start">Start Time (hh:mm:ss)</label>
+    <input type="text" id="start" placeholder="e.g. 0:01:30" />
+
+    <label for="end">End Time (hh:mm:ss)</label>
+    <input type="text" id="end" placeholder="e.g. 0:02:45" />
+
+    <button id="setLoop">Set Loop</button>
+
+    <p class="note">Format supports hh:mm:ss, mm:ss, or just ss</p>
+  </div>
 
   <script src="popup.js"></script>
 </body>
